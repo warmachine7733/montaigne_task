@@ -1,0 +1,13 @@
+.chart {
+  position: relative;
+  left: 5px;
+  height: 250px;
+  width: 850px;
+  top: 50px;
+  margin: auto;
+}
+
+.keywords {
+  position: relative;
+  left: 190px;
+}
