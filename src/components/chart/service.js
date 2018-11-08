@@ -1,5 +1,5 @@
 export const getChartData = async () => {
-  let API_URL = "http://api.jsonbin.io/b/5b893b00db948c68635a04eb";
+  let API_URL = "https://api.jsonbin.io/b/5b893b00db948c68635a04eb";
   let method = "GET";
   let obj = {
     method: method,
