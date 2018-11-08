@@ -10,7 +10,7 @@ import "./table.css";
 
 const CustomTableCell = withStyles(theme => ({
   head: {
-    backgroundColor: "#808080",
+    backgroundColor: "#A9A9A9",
     color: "white"
   },
   body: {

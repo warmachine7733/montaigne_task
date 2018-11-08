@@ -12,7 +12,7 @@ export default function chart(props) {
           className="custom"
           axes
           axisLabels={{ x: "days", y: "values" }}
-          style={{ ".label": { fill: "black" } }}
+          style={{ ".label": { fill: "black" }, "background-color": "#A9A9A9",".domain": { fill: "white" } }}
           dataPoints
           grid
           margin={{ top: 10, right: 10, bottom: 50, left: 50 }}
