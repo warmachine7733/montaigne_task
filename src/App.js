@@ -7,6 +7,9 @@ class App extends Component {
   render() {
     return (
       <div>
+        <h5 className="heading">
+          line chart using react-easy-chart and table pagination using material-ui
+        </h5>
         <Chart />
         <Table />
       </div>
