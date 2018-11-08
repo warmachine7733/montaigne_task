@@ -1,7 +1,6 @@
 import React from "react";
 import { LineChart } from "react-easy-chart";
 import Paper from "@material-ui/core/Paper";
-import "../../../node_modules/react-linechart/dist/styles.css";
 import "./chart.css";
 
 export default function chart(props) {
@@ -12,7 +11,11 @@ export default function chart(props) {
           className="custom"
           axes
           axisLabels={{ x: "days", y: "values" }}
-          style={{ ".label": { fill: "black" }, "background-color": "#A9A9A9",".domain": { fill: "white" } }}
+          style={{
+            ".label": { fill: "black" },
+            "background-color": "#A9A9A9",
+            ".domain": { fill: "white" }
+          }}
           dataPoints
           grid
           margin={{ top: 10, right: 10, bottom: 50, left: 50 }}
